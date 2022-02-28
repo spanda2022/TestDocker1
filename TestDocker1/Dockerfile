@@ -10,8 +10,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["TestDocker1/TestDocker1.csproj", "TestDocker1/"]
-RUN dotnet restore "TestDocker1/TestDocker1.csproj"
+COPY ["TestDocker1.csproj", "TestDocker1/"]
+RUN dotnet restore "TestDocker1.csproj"
 COPY . .
 WORKDIR "/src/TestDocker1"
 RUN dotnet build "TestDocker1.csproj" -c Release -o /app/build
