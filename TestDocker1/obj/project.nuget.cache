@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ybVXi2UsrjdiF+arKaw+bPSW+BwzHI0GJSNRFNUS8E99Z0ajBvQ2OOpNbOvG8xhk83IQ9ggW1Is7nvIQfx+1VQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SPanda\\source\\repos\\TestDocker1\\TestDocker1\\TestDocker1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SPanda\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
